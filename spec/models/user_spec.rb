@@ -13,7 +13,5 @@ describe User do
       expect(user.uid).to eq(auth["uid"])
       expect(user.name).to eq(auth["info"]["name"])
     end
-
   end
-
 end
